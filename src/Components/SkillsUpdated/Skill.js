@@ -1,0 +1,80 @@
+const Skills = [
+{
+    id:1,
+    image:"https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png",
+    category:"fornt-end",
+    name:"HTML"
+},
+{
+    id:2,
+    image:"https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png",
+    category:"fornt-end",
+    name:"CSS"
+},
+
+{
+    id:4,
+    image:"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    category:"fornt-end",
+    name:"React-Js"
+},
+
+{
+    id:6,
+    image:"https://icons.getbootstrap.com/assets/img/icons-hero.png",
+    category:"fornt-end",
+    name:"BootStrap"
+},
+{
+    id:7,
+    image:"https://static-00.iconduck.com/assets.00/react-router-icon-512x279-zswz065s.png",
+    category:"fornt-end",
+    name:"React-Router-Dom"
+},
+
+{
+    id:8,
+    image:"https://w7.pngwing.com/pngs/232/470/png-transparent-circle-js-node-node-js-programming-round-icon-popular-services-brands-vol-icon-thumbnail.png",
+    category:"back-end",
+    name:"Node-Js"
+},
+{
+    id:9,
+    image:"https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
+    category:"back-end",
+    name:"MongoDB"
+},
+{
+    id:3,
+    image:"https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    category:"fornt-end",
+    name:"JavaScript"
+},
+{
+    id:10,
+    image:"https://e7.pngegg.com/pngimages/301/171/png-clipart-node-js-javascript-software-developer-computer-icons-angularjs-others-miscellaneous-text-thumbnail.png",
+    category:"back-end",
+    name:"Express-Js"
+},
+{
+    id:11,
+    image:"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+    category:"Tools",
+    name:"Postman"
+},
+{
+    id:12,
+    image:"https://cdn-icons-png.flaticon.com/512/25/25231.png",
+    category:"Tools",
+    name:"GitHub"
+},
+{
+    id:5,
+    image:"https://www.coffeeclass.io/logos/chakra-ui.png",
+    category:"fornt-end",
+    name:"Chakra-UI"
+},
+
+
+]
+export default Skills
