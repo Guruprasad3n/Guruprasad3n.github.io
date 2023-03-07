@@ -20,9 +20,8 @@ function Header() {
           Guru Prasad
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-
           {/* //////////////////////////// NAVBAR    ////////////////////////////// */}
-          
+
           <ul className="nav__list grid">
             {/* LI */}
             <li className="nav__item">
@@ -38,38 +37,56 @@ function Header() {
             </li>
             {/* LI */}
             <li className="nav__item">
-              <a href="#about"   onClick={() => setActiveNav("#about")}
+              <a
+                href="#about"
+                onClick={() => setActiveNav("#about")}
                 className={
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
-                }>
+                }
+              >
                 <i className="uil uil-user nav__icon"></i> About
               </a>
             </li>
             {/* LI */}
             <li className="nav__item">
-              <a href="#skills"onClick={() => setActiveNav("#skills")}
+              <a
+                href="#skills"
+                onClick={() => setActiveNav("#skills")}
                 className={
-                  activeNav === "#skills" ? "nav__link active-link" : "nav__link"
-                }>
+                  activeNav === "#skills"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-file-alt nav__icon"></i>Skills
               </a>
             </li>
             {/* LI */}
             <li className="nav__item">
-              <a href="#projects" onClick={() => setActiveNav("#projects")}
+              <a
+                href="#projects"
+                onClick={() => setActiveNav("#projects")}
                 className={
-                  activeNav === "#projects" ? "nav__link active-link" : "nav__link"
-                }>
+                  activeNav === "#projects"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-suitcase nav__icon"></i>
                 Projects
               </a>
             </li>
             {/* LI */}
             <li className="nav__item">
-              <a href="#contact" onClick={() => setActiveNav("#contact")}
+              <a
+                href="#contact"
+                onClick={() => setActiveNav("#contact")}
                 className={
-                  activeNav === "#contact" ? "nav__link active-link" : "nav__link"
-                }>
+                  activeNav === "#contact"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-message nav__icon"></i>
                 Contact
               </a>
@@ -77,7 +94,7 @@ function Header() {
             {/* LI */}
             <li className="nav__item" download>
               <a
-                href="https://drive.google.com/file/d/1-LwIBtWhBsTOC_vdX85aD6vDPyK92a35/view?usp=sharing"
+                href="https://drive.google.com/file/d/1FRhsIvoRxJDCei92mNXSq-7RGJmVhcGp/view?usp=sharing"
                 className="nav__link"
                 target="_blank"
                 download
