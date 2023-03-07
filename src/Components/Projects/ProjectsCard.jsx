@@ -17,14 +17,14 @@ description:"MyHours - Clone; Our goal was replicate functionality where user ca
 github:"https://github.com/sushank678/mutual-cart-3380",
 netlify:"https://silver-sfogliatella-0c9664.netlify.app/"},
 
-{image:"https://github.com/Guruprasad3n/HubSpot.com---Clone/blob/main/Frontend/hubspot/src/Assets/Home.png?raw=true", 
+{image:"https://im4.ezgif.com/tmp/ezgif-4-1e4c467cef.png", 
 name:"Hubspot.com", 
 TechStacks:"React Js, Chakra Ui, Node Js",
 description:"HubSpot is a Cloud-Based CRM. HubSpot is a Software platform designed to help Company market and sell more effectively",
 github:"https://github.com/Guruprasad3n/HubSpot.com---Clone",
 netlify:"https://animated-narwhal-cecc2b.netlify.app/"},
 
-{image:"https://github.com/raghavendra7992/outstanding-partner-9831/blob/master/reliance-d/src/AdminDashBoard/icons/Reliance%20Digital%20Project.jpg?raw=true", 
+{image:"https://im4.ezgif.com/tmp/ezgif-4-0e69161ecf.png", 
 name:"Reliance Digital", 
 TechStacks:["React Js", "Chakra Ui", "Node Js", "Express Js" ],
 description:"Reliance Digital is an Indian consumer electronics retailer. It is a subsidiary of Reliance Retail, a wholly owned subsidiary of Reliance Industries. Reliance Digital opened its first store on 24 April 2007 in Delhi",
