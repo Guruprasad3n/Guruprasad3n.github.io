@@ -3,7 +3,7 @@
     align-items: center;
     column-gap: 4rem;
 }
-.about__img{
+.home-img{
     width: 320px;
     border-radius: 1.5rem;
     justify-self: center;
@@ -34,7 +34,7 @@
     font-size: var(--tiny-font-size);
 }
 .about__description{
-    padding: 0 4rem 0 0;
+    padding: 0 3rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -47,7 +47,7 @@
     grid-template-columns: 1fr;
     row-gap: 2.5rem;
  }
- .about__img{
+ .home-img{
     width: 220px;
  }
  .about__box{

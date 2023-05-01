@@ -6,7 +6,7 @@ import Data from "./Data";
 function Home() {
 
   return (
-    <div>
+    <div >
       <section className="home section" id="home">
         <div className="home__container container grid">
           <div className="home__content grid">

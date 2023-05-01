@@ -23,7 +23,7 @@
     grid-template-areas: repeat(auto, auto) ;
     gap:25px;
 }
-.skills_icons>img{
+.skills-card>img{
 display: block;
 margin: auto;
 width: 105px;
@@ -31,7 +31,7 @@ height: 100px;
 border-radius: 50%;
 padding: 15px;
 }
-.skills_icons:hover{
+.skills-card:hover{
 font-size: var(--small-font-size);
 color: var(--text-color);
 width: 65%;
@@ -40,7 +40,7 @@ margin: auto;
 }
 
 
-.skills_icons>p{
+.skills-card>p{
 text-align: center;
 }
 
@@ -71,7 +71,7 @@ text-align: center;
     .skills__container{
         grid-template-columns: repeat(3, 1fr);
     }
-    .skills_icons>img{
+    .skills-card>img{
         width: 160px;
         height: 160px;
     }
@@ -85,7 +85,7 @@ text-align: center;
         margin: auto;
         grid-template-columns: repeat(2, 1fr);
     }
-    .skills_icons>img{
+    .skills-card>img{
         width: 120px;
         height: 120px;
     }

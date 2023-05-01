@@ -1,5 +1,6 @@
 import "./calender.css"
 import GitCalender from "./GitCalender";
+import MostUsedLanguages from "./MostUsedLanguages";
 import Stats from "./Stats";
 
 
@@ -11,6 +12,8 @@ function Calender() {
 <GitCalender/>
 <br />
 <Stats/>
+<br/>
+<MostUsedLanguages/>
 </section>
   );
 }

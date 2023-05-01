@@ -28,7 +28,7 @@ function Contact() {
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">
+              <span className="contact__card-data" id="contact-email">
                 guruprasad7652@gmail.com
               </span>
 
@@ -41,10 +41,10 @@ function Contact() {
               </a>
             </div>
 
-            <div className="contact__card">
+            <div className="contact__card" id="contact-linkedin" >
               <i className="bx bxl-linkedin contact__card-icon"></i>
               <h3 className="contact__card-title">Linkedin</h3>
-              <span className="contact__card-data">guruprasad0</span>
+              <span className="contact__card-data" id="contact-github">guruprasad0</span>
 
               <a target="_blank"
                 href="https://www.linkedin.com/in/guruprasad0/"
@@ -55,10 +55,10 @@ function Contact() {
               </a>
             </div>
 
-            <div className="contact__card">
+            <div className="contact__card" id="contact-linkedin" >
               <i className="bx bxl-github contact__card-icon"></i>
               <h3 className="contact__card-title">GitHub</h3>
-              <span className="contact__card-data">Guruprasad3n</span>
+              <span className="contact__card-data" id="contact-github">Guruprasad3n</span>
 
               <a target="_blank" href="https://github.com/guruprasad3n" className="contact__button">
                 Write me{" "}
@@ -71,7 +71,7 @@ function Contact() {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+91 9052314113</span>
+              <span className="contact__card-data" id="contact-phone">+91 9052314113</span>
 
               <a target="_blank" href="https://wa.me/+919052314113" className="contact__button">
                 Write me{" "}

@@ -9,17 +9,17 @@
     row-gap: 3.8rem;
     
 }
-.project__content{
+.project-card{
     padding: 0px 0px 20px 0px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.project__title{
+.project-title{
     text-align: center;
     margin-bottom: 1.5rem;
 }
-.project__description{
+.project-description{
     overflow: hidden;
     font-size: var(--medium-font-size);
     margin-left: 1rem;
@@ -30,12 +30,12 @@
     display: none;
    
 }
-.project__teck-stacks{
+.project-tech-stack{
     margin-bottom: 1.5rem;
     color: var(--title-color);
     text-align: center;
 }
-.project__teck-stacks{
+.project-tech-stack{
     
 }
 .project__image{
@@ -79,7 +79,7 @@
   
   
   @media screen and (max-width:768px){
-    .project__description{
+    .project-description{
         display: none;
     }
 
@@ -152,7 +152,7 @@
         
     }
 
-    .project__description{
+    .project-description{
         display: none;
     }
   

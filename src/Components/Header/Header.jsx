@@ -1,6 +1,7 @@
 import { useState } from "react";
 // import resume from "../Files/Guruprasad-Behera.pdf"
 import "./header.css";
+import Resume from "../Files/Guruprasad-Behera-Resume.pdf"
 function Header() {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
@@ -14,7 +15,7 @@ function Header() {
   const [activeNav, setActiveNav] = useState("#home");
 
   return (
-    <header className="header">
+    <header className="header" id="nav-menu">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Guru Prasad
@@ -24,7 +25,7 @@ function Header() {
 
           <ul className="nav__list grid">
             {/* LI */}
-            <li className="nav__item">
+            <li className="nav__item nav-link home">
               <a
                 href="#home"
                 onClick={() => setActiveNav("#home")}
@@ -36,7 +37,7 @@ function Header() {
               </a>
             </li>
             {/* LI */}
-            <li className="nav__item">
+            <li className="nav__item nav-link about">
               <a
                 href="#about"
                 onClick={() => setActiveNav("#about")}
@@ -48,7 +49,7 @@ function Header() {
               </a>
             </li>
             {/* LI */}
-            <li className="nav__item">
+            <li className="nav__item nav-link skills">
               <a
                 href="#skills"
                 onClick={() => setActiveNav("#skills")}
@@ -62,7 +63,7 @@ function Header() {
               </a>
             </li>
             {/* LI */}
-            <li className="nav__item">
+            <li className="nav__item nav-link projects">
               <a
                 href="#projects"
                 onClick={() => setActiveNav("#projects")}
@@ -77,7 +78,7 @@ function Header() {
               </a>
             </li>
             {/* LI */}
-            <li className="nav__item">
+            <li className="nav__item nav-link contact">
               <a
                 href="#contact"
                 onClick={() => setActiveNav("#contact")}
@@ -92,12 +93,16 @@ function Header() {
               </a>
             </li>
             {/* LI */}
-            <li className="nav__item" download>
+            <li
+              className="nav__item nav-link resume"
+              id="resume-link-1"
+            >
               <a
-                href="https://drive.google.com/file/d/1FRhsIvoRxJDCei92mNXSq-7RGJmVhcGp/view?usp=sharing"
+                id="resume-button-1"
+                // href="https://drive.google.com/file/d/1FRhsIvoRxJDCei92mNXSq-7RGJmVhcGp/view?usp=sharing"
+                href={Resume}
                 className="nav__link"
                 target="_blank"
-                download
               >
                 <i className="uil uil-scenery nav__icon"></i>
                 Resume

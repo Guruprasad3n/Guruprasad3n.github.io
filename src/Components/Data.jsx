@@ -3,7 +3,7 @@
 function Data(){
     return(
         <div className="home__data">
-<h1 className="home__title">
+<h1 className="home__title" id="user-detail-name">
     B. Guru Prasad
     <svg
                   width="36"
