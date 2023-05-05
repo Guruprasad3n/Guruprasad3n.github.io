@@ -93,7 +93,7 @@ function Header() {
               </a>
             </li>
             {/* LI */}
-            <li
+            <button
               className="nav__item nav-link resume"
               id="resume-link-1"
             >
@@ -103,11 +103,12 @@ function Header() {
                 href={Resume}
                 className="nav__link"
                 target="_blank"
+                // download={"Guruprasad-Behera-Resume"}
               >
                 <i className="uil uil-scenery nav__icon"></i>
                 Resume
               </a>
-            </li>
+            </button>
             {/* https://drive.google.com/file/d/1-LwIBtWhBsTOC_vdX85aD6vDPyK92a35/view */}
           </ul>
           <i
