@@ -13,7 +13,9 @@ function Header() {
 
   const [Toggle, setToggle] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
-
+  const downloadResume = ()=>{
+    window.open("https://drive.google.com/file/d/1FRhsIvoRxJDCei92mNXSq-7RGJmVhcGp/view?usp=sharing","_blank");
+  }
   return (
     <header className="header" id="nav-menu">
       <nav className="nav container">
@@ -93,22 +95,24 @@ function Header() {
               </a>
             </li>
             {/* LI */}
-            <button
+            <li
               className="nav__item nav-link resume"
-              id="resume-link-1"
-            >
-              <a
                 id="resume-button-1"
+                onClick={downloadResume}
+              >
+              <a
+                id="resume-link-1"
                 // href="https://drive.google.com/file/d/1FRhsIvoRxJDCei92mNXSq-7RGJmVhcGp/view?usp=sharing"
                 href={Resume}
                 className="nav__link"
-                target="_blank"
-                // download={"Guruprasad-Behera-Resume"}
+                // target="_blank"
+                download={"Guruprasad-Behera-Resume"}
               >
                 <i className="uil uil-scenery nav__icon"></i>
                 Resume
               </a>
-            </button>
+            </li>
+            
             {/* https://drive.google.com/file/d/1-LwIBtWhBsTOC_vdX85aD6vDPyK92a35/view */}
           </ul>
           <i

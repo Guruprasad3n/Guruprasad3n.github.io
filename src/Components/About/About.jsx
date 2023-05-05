@@ -4,6 +4,11 @@ import myIng from "../Files/About_Photo.jpg";
 import Resume from "../Files/Guruprasad-Behera-Resume.pdf";
 
 function About() {
+
+  const downloadResume = ()=>{
+    window.open("https://drive.google.com/file/d/1FRhsIvoRxJDCei92mNXSq-7RGJmVhcGp/view?usp=sharing","_blank");
+  }
+
   return (
     <section className="about section" id="about">
       <h2 className="section_title"> About Me </h2>
@@ -36,9 +41,11 @@ function About() {
                 </button>
               </a> */}
 
-          <button id="resume-link-2">
+          <button id="resume-button-2"
+           onClick={downloadResume}
+          >
             <a
-              id="resume-button-2"
+              id="resume-link-2"
               href={Resume}
               download={"Guruprasad-Behera-Resume"}
               className="button button--flex"
