@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.aa8bf22b.css",
-    "main.js": "/static/js/main.169429fe.js",
+    "main.js": "/static/js/main.3011a3ee.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Photo_Home.jpg": "/static/media/Photo_Home.99ba012ee7c5ed0b6c05.jpg",
     "static/media/Guruprasad-Behera-Resume.pdf": "/static/media/Guruprasad-Behera-Resume.3968bdfcca744add4b48.pdf",
     "static/media/About_Photo.jpg": "/static/media/About_Photo.d5c22fd8f1b180bcc1d1.jpg",
     "index.html": "/index.html",
     "main.aa8bf22b.css.map": "/static/css/main.aa8bf22b.css.map",
-    "main.169429fe.js.map": "/static/js/main.169429fe.js.map",
+    "main.3011a3ee.js.map": "/static/js/main.3011a3ee.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa8bf22b.css",
-    "static/js/main.169429fe.js"
+    "static/js/main.3011a3ee.js"
   ]
 }
