@@ -12,7 +12,7 @@ const projects = [
 
   {
     image:
-      "https://bloghubstaffcom.lightningbasecdn.com/wp-content/uploads/2021/01/My-Hours@2x.png",
+      "https://github.com/iamsushank/mutual-cart-3380/blob/main/home.png?raw=true",
     name: "My Hours",
     TechStacks: "HTML, CSS, Java Script",
     description:

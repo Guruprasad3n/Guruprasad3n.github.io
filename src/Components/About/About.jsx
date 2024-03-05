@@ -4,10 +4,12 @@ import myIng from "../Files/About_Photo.jpg";
 import Resume from "../Files/Guruprasad-Behera-Resume.pdf";
 
 function About() {
-
-  const downloadResume = ()=>{
-    window.open("https://drive.google.com/file/d/1FRhsIvoRxJDCei92mNXSq-7RGJmVhcGp/view?usp=sharing","_blank");
-  }
+  const downloadResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1FRhsIvoRxJDCei92mNXSq-7RGJmVhcGp/view?usp=sharing",
+      "_blank"
+    );
+  };
 
   return (
     <section className="about section" id="about">
@@ -21,12 +23,12 @@ function About() {
           <p className="about__description" id="user-detail-intro">
             {/* Hi, My Name is Guru Prasad Behera I am Full Stack Web Developer and
             I enjoy learning new things in Web Development. Front i  */}
-            Hi, My Name is Guru Prasad Behera I am Full Stack Web Developer
-            proficient in tech Stacks like JavaScript, React Js, Node Js and
-            MongoDB. Love to make Interactive UI's. I am a Quick learner who is
-            constantly seeking new challenges and opportunities to grow and
-            develop my skills. I am a highly motivated Full Stack Developer with
-            good technical skills and a passion for creating innovative and
+            Hi, <br /> My Name is Guru Prasad Behera. I am Full Stack Web
+            Developer proficient in tech Stacks like JavaScript, React Js, Node
+            Js and MongoDB. Love to make Interactive UI's. I am a Quick learner
+            who is constantly seeking new challenges and opportunities to grow
+            and develop my skills. I am a highly motivated Full Stack Developer
+            with good technical skills and a passion for creating innovative and
             effective solutions.
           </p>
           {/* <a
@@ -41,9 +43,7 @@ function About() {
                 </button>
               </a> */}
 
-          <button id="resume-button-2"
-           onClick={downloadResume}
-          >
+          <button id="resume-button-2" onClick={downloadResume}>
             <a
               id="resume-link-2"
               href={Resume}
