@@ -34,7 +34,7 @@ const projects = [
 
   {
     image:
-      "https://camo.githubusercontent.com/3a18507dd4cb6c1b04a7caffb0e58b0e61d58ec09df2b4028f3f9662a29a32e6/68747470733a2f2f692e696d6775722e636f6d2f706d59525a74582e706e67",
+      "https://raw.githubusercontent.com/raghavendra7992/outstanding-partner-9831/c9dd3d70056324f1c1f5c1f08c247e2598f073f9/reliance-d/src/AdminDashBoard/icons/Reliance%20Digital%20Project.jpg",
     name: "Reliance Digital",
     TechStacks: ["React Js", "Chakra Ui", "Node Js", "Express Js"],
     description:
